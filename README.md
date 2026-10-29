@@ -15,7 +15,7 @@ This repository contains an R script to estimate empirical Bayes geometric means
 
 Each row must represent a **unique case–exposure–outcome triple**. Preprocessing, case deduplication, drug-name harmonization, creation of drug–drug pair labels, and eligibility restrictions must be completed upstream. Blank `outcome` values are converted to `none`, consistent with the supplied original analysis. Review whether this is appropriate for your source data.
 
-## Cardiovascular outcome definitions
+## Cardiovascular outcome definitions 
 
 The input column is named **`outcome`**. The analysis recognizes labels supplied in the data, including:
 
